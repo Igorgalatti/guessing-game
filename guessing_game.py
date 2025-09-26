@@ -17,16 +17,16 @@ def jogar_adivinhacoe():
 # Definindo fases
 
     while True:
-        nivel = input("Digite 1, 2 ou 3: ")
-        if nivel == "1":
+        level = input("Digite 1, 2 ou 3: ")
+        if level == "1":
             secret_number = random.randint(1, 12)
             attempts_max = 10
             break
-        elif nivel == "2":
+        elif level == "2":
             secret_number = random.randint(1, 24)
             attempts_max = 7
             break
-        elif nivel == "3":
+        elif level == "3":
             secret_number = random.randint(1, 36)
             attempts_max = 5
             break
